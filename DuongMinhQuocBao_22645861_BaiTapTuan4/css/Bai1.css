@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+.wrapper{
+    width : 1600px;
+    margin : 0 auto;
+    border: 2px solid #aaa;
+    background-color: skyblue;
+}
+header ul{
+    display: flex;
+    list-style-type: none;
+    border-bottom: 5px white dotted;
+    
+}
+header li a {
+    text-decoration: none;
+    color: white;
+}
+header li a h1{
+    padding: 0 40px 0 40px;
+    line-height: 70px;
+}
+header li a h1:hover{
+    background-color: wheat;
+    
+}
+.section1{
+    flex-basis: 60%;
+}
+.section2{
+    flex-basis: 40%;
+}
+section{
+    display: flex;
+    color: white;
+    padding:50px 30px 30px 10px;
+    border-bottom: 5px white dotted;
+    font-size: 25px;
+}
+section table{
+    margin-left: 50px;
+}
+section select{
+    background-color: white;
+    height: 40px;
+    font-size: 20px;
+    border-color: blue;
+    border-radius: 10px;
+}
+section input{
+    background-color: white;
+    padding-bottom: 20px;
+    font-size: 20px;
+    border-color: blue;
+    border-radius: 10px;
+    width: 500px;
+}
+section button {
+    background-color: rgb(194, 193, 193);
+    height: 30px;
+    width: 80px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: blue dotted;
+}
+section button a{
+    text-decoration: none;
+}
+section .question{
+    padding-bottom: 80px;
+}
+section td{
+    
+    padding-top: 20px;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    padding: 30px 0;
+}
